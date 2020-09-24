@@ -11,7 +11,6 @@
   height: 100%;
   width: 50vw;
   padding: 0.5rem;
-  flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -34,13 +33,13 @@
 
 .anchor {
   margin: 0 1rem;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 
 .contact {
   margin: 0 1rem;
   padding: 0.25rem 1.75rem;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   background: #0f8ada;
   color: #FFFFFF;
   margin: 0.25rem;
@@ -53,6 +52,10 @@
   .hamburger {
     display: none;
   }
+
+  .mobilelinks{
+    display: none;
+}
 }
 
 @media (max-width: 600px) {
@@ -61,23 +64,37 @@
     display: none;
   }
 
-  .mobilecontact {
-
-  }
-
   .container {
     width: 100vw;
   }
 
   .hamburger {
     margin: 0 1rem;
-    padding: 0.25rem 1.75rem;
+    padding: 0.25rem;
     font-size: 1.25rem;
-    background: #0f8ada;
-    color: #FFFFFF;
+    background:  #FFFFFF;
     margin: 0.25rem;
     height: 2rem;
     border: none;
     border-radius: 3px;
+  }
+
+  .menu{
+    width: 2rem;
+  }
+
+  .mobilelinks{
+    height: 30vh;
+    justify-items: flex-end;
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+  }
+
+  .anchor {
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.5rem;
   }
 }

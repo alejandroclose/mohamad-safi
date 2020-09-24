@@ -17,14 +17,14 @@ export default function Navbar() {
         </div>
         <button className={styles.contact}>CONTACT</button>
       </main>
-        <button className={styles.hamburger} onClick={ () => setNavOpen(!navOpen)}></button>
+        <button className={styles.hamburger} onClick={ () => setNavOpen(!navOpen)}><img src="../images/menu.png" className={styles.menu}></img></button>
     </div>
     <div className={navOpen ? styles.mobile : styles.nodisplay}>
     <div className={styles.mobilelinks}>
           <div className={styles.anchor}><a href="#workflow">WORKFLOW</a></div>
           <div className={styles.anchor}><a href="#projects">PROJECTS</a></div>
           <div className={styles.anchor}><a href="#about">ABOUT</a></div>
-          <button className={styles.mobilecontact}>CONTACT</button>
+          <div className={styles.anchor}><a href="#contact">CONTACT</a></div>
         </div>
     </div>
     </div>

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Home from '../components/Home'
+import Workflow from '../components/Workflow'
 import styles from '../styles/Home.module.css'
 
 export default function Index() {
@@ -10,7 +11,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Home />
-
+      <Workflow />
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

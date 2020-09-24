@@ -1,0 +1,77 @@
+.container {
+  height: 100%;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
+  background-color: #F4FAF8;
+}
+
+.main {
+  width: 100vw;
+  padding: 5rem 0 0 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
+}
+
+.title {
+  width: 50vw;
+  text-align: center;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 1.75rem;
+}
+
+.description {
+  width: 50vw;
+  text-align: center;
+  margin: 0;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+.graph {
+  margin: 1rem;
+  width: 30vw;
+}
+
+.button_l {
+  background: #0f8ada;
+  color: #FFFFFF;
+  margin: 2rem;
+  width: 15rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 600px) {
+  .main {
+    justify-content: initial;
+  }
+
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .title {
+    width: 95vw;
+    font-size: 1.5rem;
+  }
+
+  .description {
+    width: 80vw;
+    font-size: 0.85rem;
+  }
+
+  .graph {
+    width: 90vw;
+  }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap');
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -5,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .splash {
@@ -51,19 +54,29 @@
 }
 
 .title {
+  width: 50vw;
+  text-align: center;
   margin: 0;
   line-height: 1.15;
-  font-size: 3rem;
+  font-size: 2.25rem;
 }
 
-.title,
+.break {
+  margin: 2rem 0;
+  height: 0.35rem;
+  width: 60vw;
+  background-color: #31716d;
+}
 .description {
   text-align: center;
 }
 
 .description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+  width: 50vw;
+  text-align: center;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2.25rem;
 }
 
 .code {
@@ -80,39 +93,31 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
-  max-width: 800px;
+  width: 60vw;
   margin-top: 3rem;
 }
 
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+.button_l {
+  background: #0f8ada;
+  color: #FFFFFF;
+  margin: 0.25rem;
+  width: 15rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.button_r {
+  background: #f4faf8;
+  color: #3B4140;
+  margin: 0.5rem 1rem;
+  width: 15rem;
+  height: 2rem;
+  border: 1px solid #9facab;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 1rem;
 }
 
 .logo {
@@ -126,6 +131,7 @@
   }
 
   .title {
+    width: 95vw;
     font-size: 1.5rem;
   }
 }

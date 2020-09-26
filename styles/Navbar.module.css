@@ -1,15 +1,16 @@
 .container {
-  height: 100%;
-  padding: 0.5rem 2rem;
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 1px;
 }
 
 .main {
   height: 100%;
-  width: 50vw;
+  min-width: 80vw;
   padding: 0.5rem;
   display: flex;
   flex-direction: row;
@@ -36,55 +37,28 @@
   font-size: 1.15rem;
 }
 
-.contact {
+.hamburger {
   margin: 0 1rem;
-  padding: 0.25rem 1.75rem;
-  font-size: 1.15rem;
-  background: #0f8ada;
-  color: #FFFFFF;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  background: #ffffff;
   margin: 0.25rem;
   height: 2rem;
   border: none;
   border-radius: 3px;
 }
 
-@media screen and (min-width: 600px) {
-  .hamburger {
-    display: none;
-  }
-
-  .mobilelinks{
-    display: none;
-}
+.menu {
+  width: 2rem;
 }
 
 @media (max-width: 600px) {
-
-  .main {
-    display: none;
-  }
-
   .container {
     width: 100vw;
   }
 
-  .hamburger {
-    margin: 0 1rem;
-    padding: 0.25rem;
-    font-size: 1.25rem;
-    background:  #FFFFFF;
-    margin: 0.25rem;
-    height: 2rem;
-    border: none;
-    border-radius: 3px;
-  }
-
-  .menu{
-    width: 2rem;
-  }
-
-  .mobilelinks{
-    height: 30vh;
+  .mobilelinks {
+    height: 100%;
     justify-items: flex-end;
     position: absolute;
     z-index: 999;

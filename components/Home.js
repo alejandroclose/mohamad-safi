@@ -3,9 +3,6 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-
-      <img src="/images/Vector4.png" alt="A splash of orange color at the top of the page" className={styles.splash} />
-
       <main className={styles.main}>
         <h1 className={styles.title}>
         HI THERE! I’M MOHAMAD SAFI

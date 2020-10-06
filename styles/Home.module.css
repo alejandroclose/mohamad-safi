@@ -9,8 +9,7 @@
 
 .main {
   width: 80vw;
-  height: 80hv;
-  padding: 5rem 0;
+  padding: 3rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -82,6 +81,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 3rem;
 }
 
 .button_l {
@@ -134,7 +134,6 @@
 
   .grid {
     width: 70vw;
-    display: flex;
     flex-direction: column;
   }
 

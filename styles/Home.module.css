@@ -1,6 +1,5 @@
 .container {
   height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,11 +80,10 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 3rem;
 }
 
 .button_l {
-  background: #0f8ada;
+  background: #31716D;
   color: #FFFFFF;
   margin: 0.25rem;
   width: 13rem;
@@ -96,7 +94,7 @@
 }
 
 .button_r {
-  background: #f4faf8;
+  background: #F4FAF8;
   color: #3B4140;
   margin: 0.5rem 1rem;
   width: 13rem;
@@ -142,5 +140,15 @@
     width: 70vw;
     position: absolute;
     bottom: 0;
+  }
+
+  .button_l {
+    width: 70vw;
+    margin: 0.25rem 0;
+  }
+
+  .button_r {
+    width: 70vw;
+    margin: 0.25rem 0;
   }
 }

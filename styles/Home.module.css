@@ -81,7 +81,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 60vw;
   margin-top: 3rem;
 }
 
@@ -90,7 +89,7 @@
   color: #FFFFFF;
   margin: 0.25rem;
   width: 13rem;
-  height: 2rem;
+  height: 2.5rem;
   border: none;
   border-radius: 3px;
   font-size: 1rem;
@@ -101,7 +100,7 @@
   color: #3B4140;
   margin: 0.5rem 1rem;
   width: 13rem;
-  height: 2rem;
+  height: 2.5rem;
   border: 1px solid #9facab;
   box-sizing: border-box;
   border-radius: 3px;

@@ -9,6 +9,7 @@
 
 .main {
   width: 80vw;
+  height: 80hv;
   padding: 5rem 0;
   flex: 1;
   display: flex;

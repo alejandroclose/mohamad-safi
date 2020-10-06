@@ -7,13 +7,8 @@
   align-items: center;
 }
 
-.splash {
-  width: 90vw;
-  height: 20vh;
-}
-
 .main {
-  width: 100vw;
+  width: 80vw;
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -53,7 +48,6 @@
 }
 
 .title {
-  width: 50vw;
   text-align: center;
   margin: 0;
   line-height: 1.15;
@@ -61,19 +55,16 @@
   font-family: 'El Messiri', sans-serif;
 }
 
-.break {
-  margin: 2rem 0;
-  height: 0.35rem;
-  width: 60vw;
-  background-color: #31716d;
+.highlight {
+  color: #31716D
 }
 
 .description {
-  width: 50vw;
   text-align: center;
   margin: 0;
   line-height: 1.15;
-  font-size: 2.25rem;
+  font-size: 1rem;
+  color: #3B4140;
 }
 
 .code {
@@ -123,11 +114,24 @@
 
 @media (max-width: 600px) {
   .main {
+    width: 70vw;
     justify-content: initial;
   }
 
-  .splash {
-    height: 8vh;
+  .profile {
+    width: 70vw;
+    height: 50vh;
+    opacity: 25%;
+  }
+
+  .profilebox {
+    margin: 1rem 0;
+    width: 70vw;
+    position: relative;
+  }
+
+  .description {
+    margin: 1rem 0;
   }
 
   .grid {
@@ -136,12 +140,9 @@
   }
 
   .title {
-    width: 95vw;
     font-size: 1.5rem;
-  }
-
-  .description {
-    width: 80vw;
-    font-size: 1.5rem;
+    width: 70vw;
+    position: absolute;
+    bottom: 0;
   }
 }

@@ -46,24 +46,41 @@
   text-decoration: underline;
 }
 
+.profileBox {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ctaBox {
+  position: absolute;
+  bottom: 9rem;
+  align-self: flex-start;
+}
+
 .title {
-  text-align: center;
+  width: 45vw;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   line-height: 1.15;
-  font-size: 2.25rem;
-  font-family: 'El Messiri', sans-serif;
+  font-size: 3rem;
+  font-family: "El Messiri", sans-serif;
 }
 
 .highlight {
-  color: #31716D
+  color: #31716d;
 }
 
 .description {
-  text-align: center;
+  width: 25vw;
   margin: 0;
   line-height: 1.15;
-  font-size: 1rem;
-  color: #3B4140;
+  font-size: 1.15rem;
+  font-weight: lighter;
+  color: #3b4140;
 }
 
 .code {
@@ -78,14 +95,13 @@
 .grid {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .button_l {
-  background: #31716D;
-  color: #FFFFFF;
-  margin: 0.25rem;
+  background: #31716d;
+  color: #ffffff;
   width: 13rem;
   height: 2.5rem;
   border: none;
@@ -94,8 +110,8 @@
 }
 
 .button_r {
-  background: #F4FAF8;
-  color: #3B4140;
+  background: #f4faf8;
+  color: #3b4140;
   margin: 0.5rem 1rem;
   width: 13rem;
   height: 2.5rem;
@@ -112,6 +128,11 @@
 @media (max-width: 600px) {
   .main {
     width: 70vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
   }
 
   .profile {
@@ -120,22 +141,31 @@
     opacity: 25%;
   }
 
-  .profilebox {
+  .profileBox {
     margin: 1rem 0;
     width: 70vw;
     position: relative;
   }
 
+  .ctaBox {
+    position: inherit;
+  }
+
   .description {
+    width: 70vw;
+    text-align: center;
     margin: 1rem 0;
+    font-size: 1rem;
   }
 
   .grid {
     width: 70vw;
     flex-direction: column;
+    justify-content: center;
   }
 
   .title {
+    text-align: center;
     font-size: 1.5rem;
     width: 70vw;
     position: absolute;

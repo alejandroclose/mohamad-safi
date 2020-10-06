@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <div className={styles.profilebox}>
+        <div className={styles.profileBox}>
           <h1 className={styles.title}>
             <div>
               <div>Hi there! I’m </div>
@@ -16,7 +16,7 @@ export default function Home() {
           </h1>
           <img src="/images/profile.png" className={styles.profile} />
         </div>
-
+        <div className={styles.ctaBox}>
         <h2 className={styles.description}>
           I help people widen perspectives to grow inside and out.
         </h2>
@@ -28,6 +28,8 @@ export default function Home() {
             <a href="#workflow">Learn about my workflow</a>
           </button>
         </div>
+        </div>
+        
       </main>
     </div>
   );

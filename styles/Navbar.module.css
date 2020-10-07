@@ -27,7 +27,6 @@
 .logo {
   width: 2.5rem;
   height: 1.35rem;
-  margin: 0 0 0 1rem;
 }
 
 .nav {
@@ -86,5 +85,9 @@
 
   .menu {
     margin: 0 1rem 0 0;
+  }
+
+  .logo {
+    margin: 0 0 0 1rem;
   }
 }

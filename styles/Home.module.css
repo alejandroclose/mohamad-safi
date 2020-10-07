@@ -125,7 +125,7 @@
   height: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .main {
     width: 70vw;
     flex: 1;
@@ -181,4 +181,36 @@
     width: 70vw;
     margin: 0.25rem 0;
   }
+}
+
+@media (min-width: 600px) {
+  .ctaBox {
+    bottom: 23rem;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .ctaBox {
+    bottom: 13rem;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  
+  .ctaBox {
+    bottom: 25%;
+  }
+}
+
+@media (min-width: 1400px) {
+  
+  .ctaBox {
+    bottom: 35%;
+  }
+}
+
+@media (min-width: 1800px) {
+
 }

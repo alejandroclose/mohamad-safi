@@ -9,7 +9,7 @@ export default function Home() {
             <div>
               <div>Hi there! I’m </div>
               <div>
-              Mohamad <b className={styles.highlight}>Safi</b>
+              Mohamad <span className={styles.highlight}>Safi</span>
               </div>
             </div>
             <div>A UX Designer and Psychologist</div>

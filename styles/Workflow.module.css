@@ -9,7 +9,7 @@
 }
 
 .main {
-  width: 100vw;
+  width: 80vw;
   padding: 5rem 0 0 0;
   flex: 1;
   display: flex;
@@ -19,35 +19,46 @@
 }
 
 .title {
-  width: 50vw;
+  width: 45vw;
   text-align: center;
   margin: 0;
   line-height: 1.15;
-  font-size: 1.75rem;
+  font-size: 3rem;
+  font-family: "El Messiri", sans-serif;
 }
 
 .description {
-  width: 50vw;
+  width: 43vw;
   text-align: center;
   margin: 0;
   line-height: 2;
   font-size: 1rem;
 }
 
-.graph {
+.highlight {
+  color: #31716d;
+}
+
+.wfgraph {
   margin: 1rem;
-  width: 30vw;
+  width: 42vw;
 }
 
 .button_l {
-  background: #0f8ada;
-  color: #FFFFFF;
-  margin: 2rem;
-  width: 15rem;
-  height: 2rem;
+  background: #31716d;
+  color: #ffffff;
+  width: 13rem;
+  height: 2.5rem;
   border: none;
   border-radius: 3px;
   font-size: 1rem;
+  margin: 2rem;
+}
+
+@media (min-width: 601px) {
+  .mobilewfgraph {
+    display: none;
+  }
 }
 
 
@@ -62,16 +73,20 @@
   }
 
   .title {
-    width: 95vw;
+    width: 75vw;
     font-size: 1.5rem;
   }
 
   .description {
-    width: 80vw;
+    width: 75vw;
     font-size: 0.85rem;
   }
 
-  .graph {
-    width: 90vw;
+  .mobilewfgraph {
+    width: 70vw;
+  }
+
+  .wfgraph {
+    display: none;
   }
 }

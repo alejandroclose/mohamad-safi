@@ -5,7 +5,8 @@ export default function Workflow() {
     <div className={styles.container} id="workflow">
       <main className={styles.main}>
         <h2 className={styles.title}>
-        ENJOYING THE PROCESS<br/>OF BEING A WORK IN PROGRESS
+        Enjoying the <b className={styles.highlight}>process</b><br/>
+        of being a work in <b className={styles.highlight}>progress</b>
         </h2>
 
         <div className={styles.description}>
@@ -14,7 +15,8 @@ export default function Workflow() {
         I learn, decide, develop, implement and repeat.
         </div>
 
-        <img src="/images/Workflow.png" alt="Learn, Design, Develop, Implement workflow graph" className={styles.graph}/>
+        <img src="/images/Workflow.png" alt="Learn, Design, Develop, Implement workflow graph" className={styles.wfgraph}/>
+        <img src="/images/Workflow_m.png" alt="Learn, Design, Develop, Implement workflow graph" className={styles.mobilewfgraph}/>
         
         <div className={styles.description}>
         With every project I improve and refine my workflow using different methodologies to get the most out of each one. Lean UX, Design Thinking, Theory U and Agile are some that I use interchangeably.
